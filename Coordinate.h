@@ -64,10 +64,10 @@ class Event {
 public:
     int id = 0;
     int tickets = 0;
-    double price = 0;
+    int price = 0;
     Coordinate coord;
 
-    Event(int uniqueID, int t, double dollars, Coordinate c)
+    Event(int uniqueID, int t, int dollars, Coordinate c)
       : id(uniqueID),
         tickets(t),
         price(dollars),
