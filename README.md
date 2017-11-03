@@ -13,7 +13,11 @@ The assumptions that I have made:
 1. How might you change your program if you needed to support multiple events at the
 same location?
 
+If I needed to support multiple events at the same location, then in my Coordinate constructor, I would pass a vector of type Event. This would then enable a single Coordinate to support multiple events. The Event constructor would no longer accept a Coordinate object as an argument. 
+
 
 2. How would you change your program if you were working with a much larger world
 size?
+
+I would modify my code so that it would be more precise in the sense where the x and y coordinates as well as the price of the tickets are allowed to be decimal (i.e. double). I would have multiple constructors in the Coordinate class so that there would be an option for a Coordinate to have no events. 
 
