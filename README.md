@@ -1,5 +1,7 @@
 # Viagogo Coding Challenge
 
+I have decided to code in C++ for this coding challenge. There are 2 header files that have been provided, both of which are used in the test file. Running it in either an IDE or terminal is sufficient. 
+
 The assumptions that I have made:
 1. Some events can have the same coordinates
 2. All coordinates have 1 event
