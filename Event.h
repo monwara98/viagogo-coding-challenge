@@ -22,15 +22,15 @@ public:
         coord(c) {
     }
 
-    int getID() {
+    int getID() const {
       return id;
     }
 
-    int getX() {
+    int getX() const {
       return coord.getX();
     }
 
-    int getY() {
+    int getY() const {
       return coord.getY();
     }
 
