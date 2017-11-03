@@ -19,5 +19,5 @@ If I needed to support multiple events at the same location, then in my Coordina
 2. How would you change your program if you were working with a much larger world
 size?
 
-I would modify my code so that it would be more precise in the sense where the x and y coordinates as well as the price of the tickets are allowed to be decimal (i.e. double). I would have multiple constructors in the Coordinate class so that there would be an option for a Coordinate to have no events. 
+I would modify my code so that it would be more precise in the sense where the x and y coordinates as well as the price of the tickets and the distance between 2 points are allowed to be decimal (i.e. double). I would have multiple constructors in the Coordinate class so that there would be an option for a Coordinate to have no events as well as one or more. I would write some test cases in the .cpp file that would enable me to check my progress as I go along. 
 
